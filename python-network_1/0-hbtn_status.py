@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""Fetches the status from a remote server using urllib."""
+"""Fetches a URL and displays information about its response body."""
 
 import urllib.request
 
 
 if __name__ == "__main__":
-    url = "https://alu-intranet.hbtn.io/status"
+    url = "https://intranet.hbtn.io/status"
 
     with urllib.request.urlopen(url) as response:
         body = response.read()
