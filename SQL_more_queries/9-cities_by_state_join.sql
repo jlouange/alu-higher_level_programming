@@ -1,3 +1,4 @@
+-- list all cities by their state name
 SELECT
     cities.id,
     cities.name,
